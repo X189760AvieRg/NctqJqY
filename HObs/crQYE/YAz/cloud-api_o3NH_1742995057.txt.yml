@@ -50,7 +50,6 @@ dockers:
   - image_templates:
       - "{{ .ProjectName }}:{{ .Tag }}"
       - "{{ .ProjectName }}:v{{ .Major }}.{{ .Minor }}"
-      - "{{ .ProjectName }}:v{{ .Major }}"
       - "{{ .ProjectName }}:latest"
     dockerfile: Dockerfile.goreleaser
     use: buildx
