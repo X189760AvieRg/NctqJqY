@@ -120,7 +120,6 @@ update_frontend_env() {
   fi
   
   # Create or update .env file
-  cat > src/frontend/.env << EOF
 # AWS Region
 REACT_APP_AWS_REGION=${AWS_REGION}
 
